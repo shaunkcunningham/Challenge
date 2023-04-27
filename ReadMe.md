@@ -85,3 +85,30 @@ Compensation from the persistence layer.
 
 ## Delivery
 Please upload your results to a publicly accessible Git repo. Free ones are provided by Github and Bitbucket.
+
+### What was Implemented
+Task #1:
+The following endpoint was created:
+* READ
+	* HTTP Method: GET
+	* URL: localhost:8080/api/employee/getReportingStructureById/{employeeId}
+	* Response: ReportingStructure
+
+Task #2:
+The following endpoints were created:
+* CREATE
+	* HTTP Method: POST
+	* URL: localhost:8080/api/employee/createCompensation
+   * PAYLOAD: Compensation
+	* RESPONSE: Compensation
+
+* READ
+	* HTTP Method: GET
+	* URL: localhost:8080/api/employee/getCompensationById/{employeeId}
+	* Response: Compensation
+
+The following unit tests were created:
+   * GetReportingStructureById_Returns_Ok()
+   * GetReportingStructureById_Returns_NotFound()
+   * CreateCompensation_Returns_Created()
+
