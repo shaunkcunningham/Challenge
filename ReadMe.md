@@ -86,7 +86,7 @@ Compensation from the persistence layer.
 ## Delivery
 Please upload your results to a publicly accessible Git repo. Free ones are provided by Github and Bitbucket.
 
-### What was Implemented
+## What was Implemented
 Task #1:
 The following endpoint was created:
 * READ
